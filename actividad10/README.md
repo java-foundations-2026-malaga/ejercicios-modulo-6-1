@@ -2,7 +2,7 @@
 
 ## Suma los números del 1 al 10
 
-Usa un acumulador dentro del for.
+Usa un `for` y una variable acumuladora para sumar los números del 1 al 10 e imprime `Suma: <suma>`.
 
 ## Objetivo
 
@@ -28,4 +28,5 @@ Suma: 55
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

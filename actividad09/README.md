@@ -2,7 +2,7 @@
 
 ## Imprime cuadrados del 1 al 5
 
-Usa el contador en el cálculo del cuadrado.
+Usa un `for` del 1 al 5 e imprime cada número y su cuadrado (calculado a partir del contador) con el formato `n -> cuadrado`, uno por línea.
 
 ## Objetivo
 
@@ -32,4 +32,5 @@ Usa el contador en el cálculo del cuadrado.
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

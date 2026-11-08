@@ -2,7 +2,7 @@
 
 ## Crea una cuenta atrás de lanzamiento
 
-Imprime la cuenta desde 10 hasta 1 y el lanzamiento.
+Imprime `Countdown to Launch:`, después los números del 10 al 1 (uno por línea) con un `for` decreciente y, al final, `Blast Off!`.
 
 ## Objetivo
 
@@ -39,4 +39,5 @@ Blast Off!
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

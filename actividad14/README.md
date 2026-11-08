@@ -2,7 +2,7 @@
 
 ## Generador de potencias de 2
 
-Genera 2, 4, 8, 16, 32 y 64.
+Usa un `for` para generar las seis primeras potencias de 2 (de 2^1 a 2^6) y muéstralas en una sola línea, separadas por un espacio.
 
 ## Objetivo
 
@@ -28,4 +28,5 @@ Genera 2, 4, 8, 16, 32 y 64.
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

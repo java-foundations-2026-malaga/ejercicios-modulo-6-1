@@ -2,7 +2,7 @@
 
 ## Calcula la media de varias notas
 
-Lee, suma y calcula la media de N notas.
+Lee con `Scanner` un número entero N y después N notas enteras; súmalas con un `for`, calcula la media como `double` (cuidado con la división entera) e imprime `Media: <media>`. El test introduce `3` y después `7`, `8` y `9` (y prueba también con otros datos). Si muestras mensajes para pedir los datos, `Media: ...` debe ser lo último que se imprima.
 
 ## Objetivo
 
@@ -28,4 +28,5 @@ Media: 8.0
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

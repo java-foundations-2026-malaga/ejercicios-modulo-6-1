@@ -2,7 +2,7 @@
 
 ## Reescribe un programa repetitivo con for
 
-Sustituye cuatro lecturas repetidas por un bucle.
+Sustituye las cuatro lecturas repetidas por un `for` que lea los 4 números con una única llamada a `nextInt()` dentro del bucle y los acumule. Imprime `Total: <total>`.
 
 ## Objetivo
 
@@ -28,4 +28,5 @@ Total: 20
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.

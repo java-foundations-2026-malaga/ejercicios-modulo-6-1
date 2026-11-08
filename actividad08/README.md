@@ -2,7 +2,7 @@
 
 ## Imprime números pares del 0 al 20
 
-Actualiza el contador de dos en dos.
+Usa un `for` cuyo contador aumente de dos en dos (`i += 2`) para imprimir los números pares del 0 al 20 en una sola línea, separados por un espacio.
 
 ## Objetivo
 
@@ -28,4 +28,5 @@ Actualiza el contador de dos en dos.
 
 ## GitHub Actions
 
-- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
+- Sube tu trabajo a **tu rama** (no a `main`): el workflow `Autocorrección` compila y ejecuta los tests de cada actividad que hayas modificado.
+- En la pestaña **Actions** del repositorio verás ✅ si la actividad está aprobada o ❌ si hay errores de compilación o tests que fallan.
